@@ -1,7 +1,8 @@
 <?php
 
-use App\Models\Auth\ProductSubcategory;
+
 use Illuminate\Database\Seeder;
+use App\Domains\Features\Market\Models\ProductSubcategory;
 
 /**
  * Class ProductSubCateogyTableSeeder.
@@ -17,7 +18,7 @@ class ProductSubCategoryTableSeeder extends Seeder
     {
         $this->disableForeignKeys();
 
-        /* 
+        /*
 
             Agriculture
 
@@ -850,7 +851,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'slug' => slugify('Men Shoes'),
             'category_id' => 9
         ]);
-        
+
         ProductSubcategory::create([
             'name' => 'Shoe Materials',
             'slug' => slugify('Shoe Materials'),
@@ -951,7 +952,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'slug' => slugify('Mobile Phones'),
             'category_id' => 10
         ]);
-        
+
         ProductSubcategory::create([
             'name' => 'Radio & TV Accessories',
             'slug' => slugify('Radio & TV Accessories'),
@@ -1096,7 +1097,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'category_id' => 11
         ]);
 
-      
+
 
         ProductSubcategory::create([
             'name' => 'Refrigerators & Freezerss',
@@ -1678,7 +1679,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'slug' => slugify('Toy Guns'),
             'category_id' => 16
         ]);
-     
+
         ProductSubcategory::create([
             'name' => 'Toy Robots',
             'slug' => slugify('Toy Robots'),
@@ -1908,7 +1909,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'slug' => slugify('Shaving & Hair Removal'),
             'category_id' => 18
         ]);
-      
+
 
         /* Construction & Real Estate  */
 
@@ -2317,7 +2318,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'slug' => slugify('Energy Saving & Fluorescent'),
             'category_id' => 21
         ]);
-      
+
         ProductSubcategory::create([
             'name' => 'LED Professional Lighting',
             'slug' => slugify('LED Professional Lighting'),
@@ -2348,7 +2349,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'slug' => slugify('LED Residential Lighting'),
             'category_id' => 21
         ]);
-      
+
         ProductSubcategory::create([
             'name' => 'Crystal Lights',
             'slug' => slugify('Crystal Lights'),
@@ -2480,7 +2481,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'slug' => slugify('Wood Furniture'),
             'category_id' => 22
         ]);
-       
+
 
 
         /* Machinery  */
@@ -2754,8 +2755,8 @@ class ProductSubCategoryTableSeeder extends Seeder
             'category_id' => 26
         ]);
 
-        
-        
+
+
 
         ProductSubcategory::create([
             'name' => 'Barbed Wire',
@@ -3154,7 +3155,7 @@ class ProductSubCategoryTableSeeder extends Seeder
             'category_id' => 29
         ]);
 
-       
+
         ProductSubcategory::create([
             'name' => 'Natural Gas',
             'slug' => slugify('Natural Gas'),

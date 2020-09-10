@@ -14,7 +14,12 @@ class CreateProductSubcategoriesTable extends Migration
     public function up()
     {
         Schema::create('product_subcategories', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
+            $table->uuid('uuid')->unique();
+            $table->unsignedBigInteger('category_id');
+            $table->string('name')->unique();
+            $table->string('slug')->unique();
+
             $table->timestamps();
         });
     }

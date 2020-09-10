@@ -1,7 +1,8 @@
 <?php
 
-use App\Models\Auth\ProductCategory;
+
 use Illuminate\Database\Seeder;
+use App\Domains\Features\Market\Models\ProductCategory;
 
 /**
  * Class ProductCateogyTableSeeder.
