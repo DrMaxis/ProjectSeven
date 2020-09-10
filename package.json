@@ -31,6 +31,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "intl-tel-input": "^17.0.3"
+        "intl-tel-input": "^17.0.3",
+        "npm": "^6.14.8"
     }
 }

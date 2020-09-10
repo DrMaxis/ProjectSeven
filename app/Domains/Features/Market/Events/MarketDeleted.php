@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domains\Auth\Events\Account;
+namespace App\Domains\Features\Market\Events;
 
 use App\Domains\Features\Market\Models\Market;
 use Illuminate\Queue\SerializesModels;

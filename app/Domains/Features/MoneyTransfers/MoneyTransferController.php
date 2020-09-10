@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Frontend\User\Feature\MoneyTransfers;
+namespace App\Domains\Features\MoneyTransfers;
 
 use Braintree;
 use Illuminate\Http\Request;

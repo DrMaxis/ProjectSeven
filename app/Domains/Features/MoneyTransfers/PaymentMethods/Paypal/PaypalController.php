@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Frontend\User\PaymentMethods\Paypal;
+namespace App\Domains\Features\MoneyTransfers\PaymentMethods\Paypal;
 
 use Braintree;
 use App\Http\Controllers\Controller;
