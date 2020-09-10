@@ -22,7 +22,7 @@ class UserSeeder extends Seeder
             'type' => User::TYPE_ADMIN,
             'name' => 'Super Admin',
             'email' => 'admin@admin.com',
-            'password' => 'secret',
+            'password' => env('ADMIN_PASSWORD', 'password'),
             'phonenumber' => 12345678900,
             'email_verified_at' => now(),
             'active' => true,

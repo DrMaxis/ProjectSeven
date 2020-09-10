@@ -4,15 +4,16 @@ namespace App\Domains\Features\Market\Services;
 
 
 use Exception;
+use Illuminate\Support\Str;
 use App\Services\BaseService;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Str;
 use App\Domains\Auth\Models\Account;
 use App\Exceptions\GeneralException;
 use App\Domains\Features\Market\Models\Market;
-use App\Domains\Auth\Events\Account\MarketCreated;
-use App\Domains\Auth\Events\Account\MarketDeleted;
-use App\Domains\Auth\Events\Account\MarketUpdated;
+use App\Domains\Features\Market\Events\MarketCreated;
+use App\Domains\Features\Market\Events\MarketDeleted;
+use App\Domains\Features\Market\Events\MarketUpdated;
+
 
 
 
